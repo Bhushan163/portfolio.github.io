@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/* Home CSS */
+
+body{font-family: 'Montserrat', sans-serif;}
+
+.nav-item a{font-size:20px; color:#2961a5;}
+
+.selected{border-bottom:1px solid #f08227; color:#f08227 !important;}
+
+.nav-item a:hover{border-bottom:1px solid #2961a5; color:#2961a5;}
+
+#about{background-color:#f3f2f2;  border-radius: 10px;}
+#about h3{text-decoration:underline;}
+#about p{font-size:20px; line-height: 2;}
+#about a{color: #2961a5;
+    text-decoration: underline;
+    font-size: 20px; transition: ease-in 0.1s;}
+
+#about a:hover{color:#f08227;}
+
+#services{background-color:#f3f2f2;  border-radius: 10px;}
+#services h3{text-decoration:underline;}
+#services .va1{text-align:right;
+    text-decoration: underline;
+color: #2961a5;}
+#services .va1 h5{margin-top:-4%;}
+
+#services .va1:hover{color:#f08227;}
+
+
+#team{background-color:#f3f2f2;  border-radius: 10px;}
+#team h3{text-decoration:underline;}
+#team .va1{text-align:right;
+    text-decoration: underline;
+color: #2961a5;}
+#team .va1 h5{margin-top:-4%;}
+
+#team .va1:hover{color:#f08227;}
+
+.card{background-color:#e1e0e0; transition:ease-in 0.1s;}
+/*.card:hover{background-color:#f08227; transition:ease-in 0.2s; color:white;}*/
+
+
+#test{background-color:#f3f2f2;  border-radius: 10px;}
+#test h3{text-decoration:underline;}
+
+.carousel-caption{color:black;}
+
+#footer{background-color:#f08227;}
+#footer ul{list-style-image: url(../images/arrow.png);}
+#footer a{color: black;
+    font-size: 18px; }
+#footer ul li{padding-bottom: 5px;}
+
+#footer ul{padding-left:20px;}
+#footer i{font-size:20px; background-color:white; border-radius:50px;}
+#copyright{background-color:black; color:white; text-align:center;}
+#copyright p{padding:18px 0px; margin:0;}
+
+
+/* Home CSS */
+
+
+/* About CSS */
+
+#aboutus{background-color:#f3f2f2;  border-radius: 10px;}
+#aboutus h3{text-decoration:underline; color: #f08227;}
+#aboutus p{font-size:18px;}
+
+
+/* About CSS */
+
+/* Services CSS */
+
+#servicein{background-color:#f3f2f2;  border-radius: 10px;}
+#servicein h3{text-decoration:underline; color: #f08227;}
+#servicein p{font-size:18px;}
+#servicein h5{color: #2961a5;}
+
+/* Services CSS */
+
+
+/* teamin CSS */
+
+#teamin{background-color:#f3f2f2;  border-radius: 10px;}
+#teamin h3{text-decoration:underline; color: #f08227;}
+
+
+/* Services CSS */
+
+
+/* Contact CSS */
+
+#contact{background-color:#f3f2f2;  border-radius: 10px;}
+#contact h3{text-decoration:underline; color: #f08227;}
+#contact button{background-color:#f08227; border:none; box-shadow:none;}
+#contact button:hover{background-color:#2961a5; transition:ease-in 0.2s}
+
+/* Contact CSS */
